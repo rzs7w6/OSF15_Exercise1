@@ -223,9 +223,9 @@ unsigned int find_matrix_given_name (Matrix_t** mats, unsigned int num_mats, con
 }
 
 /*
- * PURPOSE: 
- * INPUTS:
- * RETURN:
+ * PURPOSE: Deallocates memory stored in the array of matrices
+ * INPUTS: The array of matrices, the number of matrices in the array
+ * RETURN: void
  **/
 void destroy_remaining_heap_allocations(Matrix_t **mats, unsigned int num_mats) {
 	
